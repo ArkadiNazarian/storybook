@@ -1,6 +1,6 @@
 import './Button.css';
 
-interface Myprops {
+export interface Myprops {
     variant: "Primary" | "Secondary",
     text:string
 }
