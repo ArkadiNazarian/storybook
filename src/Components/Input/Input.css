@@ -1,0 +1,30 @@
+.input{
+    width: 150px;
+    border-radius: 4px;
+    border-color: darkgray;
+    padding: 15px 15px;
+}
+.optional-color{
+    border-color: darkgray;
+}
+.required-color{
+   border-bottom-color: red;
+}
+
+.has-error-color{
+    border-color: red;
+}
+
+.text{
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.error{
+    color: red; 
+}
+
+.display{
+    display: none;
+}
+
