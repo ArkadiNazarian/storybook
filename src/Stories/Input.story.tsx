@@ -13,7 +13,7 @@ export const Instance = Template.bind({});
 
 const default_props = {
     status: "optional",
-    text : "The field is required"
+    error_message : "The field is required"
   } as Inputprops
 
 Instance.args = default_props;
