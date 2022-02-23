@@ -1,3 +1,4 @@
 export * from "./Button";
 export * from './Input';
-export * from './Input1';
+export * from './Text Input';
+export * from './Tost';

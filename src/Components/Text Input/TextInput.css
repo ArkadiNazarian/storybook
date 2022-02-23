@@ -21,10 +21,10 @@
     margin-left: 3px;
 }
 
-.has-error-massage{
+.has-error-message{
     color: red;
 }
 
-.has-not-error-massage{
+.has-not-error-message{
     display: none;
 }
