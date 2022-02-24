@@ -2,8 +2,8 @@ import "./TextInput.css";
 
 export interface IProps {
     is_required: boolean,
-    error_message: boolean,
-    text:string
+    has_error_message: boolean,
+    error_message:string
 }
 
 export function TextInput(props: IProps) {
@@ -13,7 +13,7 @@ export function TextInput(props: IProps) {
         case false: is_required_classes += " is-not-required"; break
     }
     let error_message_classes = "input-error";
-    switch (props.error_message) {
+    switch (props.has_error_message) {
         case true: error_message_classes += " has-error-message"; break
         case false: error_message_classes += " has-not-error-message"; break
     }
@@ -23,8 +23,8 @@ export function TextInput(props: IProps) {
     
     return (
         <div>
-            <input type="text" className={is_required_classes}></input>
-            <p className={error_message_classes}>{props.text}</p>
+            <input type="text" className={is_required_classes} placeholder="placeholder"></input>
+            <p className={error_message_classes}>{props.error_message}</p>
         </div>
     )
 }
